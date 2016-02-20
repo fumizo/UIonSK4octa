@@ -15,6 +15,15 @@
 		1FBCB7781C7856FA0031A86A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7761C7856FA0031A86A /* LaunchScreen.storyboard */; };
 		1FBCB7831C7856FA0031A86A /* SKonUISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB7821C7856FA0031A86A /* SKonUISampleTests.m */; };
 		1FBCB78E1C7856FA0031A86A /* SKonUISampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB78D1C7856FA0031A86A /* SKonUISampleUITests.m */; };
+		1FBCB7A11C78577C0031A86A /* SKPlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7A01C78577C0031A86A /* SKPlay.sks */; };
+		1FBCB7A41C78589F0031A86A /* SKPlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB7A31C78589F0031A86A /* SKPlayScene.m */; };
+		1FBCB7A61C785A890031A86A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBCB7A51C785A890031A86A /* SpriteKit.framework */; };
+		1FBCB7A81C785C440031A86A /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7A71C785C440031A86A /* config.json */; };
+		1FBCB7AD1C7860D00031A86A /* maru_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7A91C7860D00031A86A /* maru_blue.png */; };
+		1FBCB7AE1C7860D00031A86A /* maru_green_low.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7AA1C7860D00031A86A /* maru_green_low.png */; };
+		1FBCB7AF1C7860D00031A86A /* maru_pink_low.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7AB1C7860D00031A86A /* maru_pink_low.png */; };
+		1FBCB7B01C7860D00031A86A /* maru_yellow_low.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7AC1C7860D00031A86A /* maru_yellow_low.png */; };
+		1FBCB7B21C7860F10031A86A /* gameView_board.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB7B11C7860F10031A86A /* gameView_board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		1FBCB7891C7856FA0031A86A /* SKonUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKonUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBCB78D1C7856FA0031A86A /* SKonUISampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKonUISampleUITests.m; sourceTree = "<group>"; };
 		1FBCB78F1C7856FA0031A86A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBCB7A01C78577C0031A86A /* SKPlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SKPlay.sks; sourceTree = "<group>"; };
+		1FBCB7A21C78589F0031A86A /* SKPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlayScene.h; sourceTree = "<group>"; };
+		1FBCB7A31C78589F0031A86A /* SKPlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPlayScene.m; sourceTree = "<group>"; };
+		1FBCB7A51C785A890031A86A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1FBCB7A71C785C440031A86A /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		1FBCB7A91C7860D00031A86A /* maru_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru_blue.png; sourceTree = "<group>"; };
+		1FBCB7AA1C7860D00031A86A /* maru_green_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru_green_low.png; sourceTree = "<group>"; };
+		1FBCB7AB1C7860D00031A86A /* maru_pink_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru_pink_low.png; sourceTree = "<group>"; };
+		1FBCB7AC1C7860D00031A86A /* maru_yellow_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru_yellow_low.png; sourceTree = "<group>"; };
+		1FBCB7B11C7860F10031A86A /* gameView_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameView_board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBCB7A61C785A890031A86A /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,16 @@
 		1FBCB75C1C7856FA0031A86A = {
 			isa = PBXGroup;
 			children = (
+				1FBCB7B11C7860F10031A86A /* gameView_board.png */,
+				1FBCB7A91C7860D00031A86A /* maru_blue.png */,
+				1FBCB7AA1C7860D00031A86A /* maru_green_low.png */,
+				1FBCB7AB1C7860D00031A86A /* maru_pink_low.png */,
+				1FBCB7AC1C7860D00031A86A /* maru_yellow_low.png */,
+				1FBCB7A71C785C440031A86A /* config.json */,
+				1FBCB7A51C785A890031A86A /* SpriteKit.framework */,
+				1FBCB7A21C78589F0031A86A /* SKPlayScene.h */,
+				1FBCB7A31C78589F0031A86A /* SKPlayScene.m */,
+				1FBCB7A01C78577C0031A86A /* SKPlay.sks */,
 				1FBCB7671C7856FA0031A86A /* SKonUISample */,
 				1FBCB7811C7856FA0031A86A /* SKonUISampleTests */,
 				1FBCB78C1C7856FA0031A86A /* SKonUISampleUITests */,
@@ -244,8 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBCB7781C7856FA0031A86A /* LaunchScreen.storyboard in Resources */,
+				1FBCB7A11C78577C0031A86A /* SKPlay.sks in Resources */,
+				1FBCB7B01C7860D00031A86A /* maru_yellow_low.png in Resources */,
+				1FBCB7AE1C7860D00031A86A /* maru_green_low.png in Resources */,
+				1FBCB7AF1C7860D00031A86A /* maru_pink_low.png in Resources */,
+				1FBCB7AD1C7860D00031A86A /* maru_blue.png in Resources */,
+				1FBCB7A81C785C440031A86A /* config.json in Resources */,
 				1FBCB7751C7856FA0031A86A /* Assets.xcassets in Resources */,
 				1FBCB7731C7856FA0031A86A /* Main.storyboard in Resources */,
+				1FBCB7B21C7860F10031A86A /* gameView_board.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +309,7 @@
 			files = (
 				1FBCB7701C7856FA0031A86A /* ViewController.m in Sources */,
 				1FBCB76D1C7856FA0031A86A /* AppDelegate.m in Sources */,
+				1FBCB7A41C78589F0031A86A /* SKPlayScene.m in Sources */,
 				1FBCB76A1C7856FA0031A86A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
